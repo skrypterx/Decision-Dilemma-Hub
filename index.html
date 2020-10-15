@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Dicey Dice</title>
+
+        <!-- CSS StyleSheets -->
+            <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <!-- External Css -->
+        <link href="style/style.css" rel="stylesheet" />
+    </head>
+    <body onload="resetDice()">
+        <h1 class="who-wins">Who wins?</h1>
+        <div class="dice-row row">
+            <div class="dot-row col-lg-4">
+                <h3 class="players">Player 1</h3>
+                <div class="dice diceA">
+                    <div class="row">
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-1">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-2">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-3">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-4">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-5">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-6">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-7">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-8">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-9">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dot-row col-lg-4">
+                <h3 class="players">Player 2</h3>
+                <div class="dice diceB">
+                    <div class="row">
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-1">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-2">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-3">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-4">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-5">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-6">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-7">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-8">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                        <div class="dice-squares col-lg-4 col-md-4 col-sm-4 dice-dot-9">
+                            <div class="dot">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-roll-container">
+            <button class="btn btn-light btn-roll" onclick="DiceyDice()">Let's RoLL!</button>
+        </div>
+
+        <!-- Script References JQuery, PopperJs, Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script/script.js"></script>
+    </body>
+</html>
